@@ -2,7 +2,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "YAHAN_APNA_BOT_TOKEN"
+TOKEN = "AAFeD6Ye5FMNTiBZNDDHZErk25EeMMRj9Os"
 
 # simple memory
 memory = {}
