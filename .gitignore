@@ -1,0 +1,8 @@
+myenv/
+__pycache__/
+.cache/
+.git-credentials
+.gitconfig
+nohup.out
+*.pyc
+AutoGPT/
