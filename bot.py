@@ -2,8 +2,9 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("AAFeD6Ye5FMNTiBZNDDHZErk25EeMMRj9Os")
-print("TOKEN:", TOKEN)
+TOKEN = os.getenv("TOKEN")
+
+print("TOKEN:", TOKEN)  # debug
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Bot chal raha hai 🚀")
